@@ -1,0 +1,14 @@
+hero__button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 0;
+    width: 38px;
+    height: 36px;
+    color: #F26002;
+    border-radius: 50%; // Para evitar poner la etiqueta de botón (ya que sino, no podemos enlazar, no disponemos de href), se ha aplicado esta propiedad para conseguir el efecto y así poder enalazar
+    margin: auto;
+    margin-top: 15px;
+    background-color: #FFFFFF;
+    padding-top: 3px; 
+}
