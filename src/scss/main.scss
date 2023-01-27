@@ -6,3 +6,9 @@
 @import 'layout/header';
 @import 'layout/footer';
 @import 'pages/index';
+
+.body {
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;  
+}
