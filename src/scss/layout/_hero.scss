@@ -1,15 +1,36 @@
 .hero__button {
+    // display: flex;
+    // justify-content: center;
+    // align-items: center;
+    // flex-grow: 0;
+    // width: 38px;
+    // height: 36px;
+    // color: #F26002;
+    // border-radius: 50%; 
+    // margin-top: 15px;
+    // background-color: #FFFFFF;
+    // padding-top: 3px; 
+
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    background-size: cover; // Para que se comporte como una portada
+    background-repeat: no-repeat;
+    justify-content: flex-end;
     align-items: center;
-    flex-grow: 0;
-    width: 38px;
-    height: 36px;
-    color: #F26002;
-    border-radius: 50%; 
-    margin-top: 15px;
-    background-color: #FFFFFF;
-    padding-top: 3px; 
+    position: relative;
+    background-position: center; // Para que se muestre desde el centro
+    width: 100%;
+    //height: 100vh;
+    height: calc(100vh - 35px); // A la altura, le hemos restado la parte de la barra de navegación (menú) con una altura correspondiente a 35px
+    //transition: all .2 ease-in-out;  // Al realizar cambios en todas las propiedades, tarde 2 milésimas de segundos y la curva para verla es ease-in-out
+}
+
+.hero {
+    border: 50px solid yellow;
+}
+
+.hero-title{
+    border: 50px solid yellow;
 }
 
 .hero-content {
@@ -18,4 +39,7 @@
     justify-content: center;
     height: 65vh;
     width: 100%;
+    border: 3px solid yellow;
 }
+
+
