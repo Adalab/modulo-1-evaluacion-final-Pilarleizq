@@ -1,45 +1,47 @@
-.hero__button {
-    // display: flex;
-    // justify-content: center;
-    // align-items: center;
-    // flex-grow: 0;
-    // width: 38px;
-    // height: 36px;
-    // color: #F26002;
-    // border-radius: 50%; 
-    // margin-top: 15px;
-    // background-color: #FFFFFF;
-    // padding-top: 3px; 
+* {
+    margin:0;
+}
 
-    display: flex;
-    flex-direction: column;
-    background-size: cover; // Para que se comporte como una portada
-    background-repeat: no-repeat;
-    justify-content: flex-end;
-    align-items: center;
-    position: relative;
-    background-position: center; // Para que se muestre desde el centro
+.hero_title{
+    border: 5px solid rgb(29, 110, 124);
+    margin: 280px 0 34px 150px;
+    text-shadow: 0 2px 3px var(--black-20);
+    padding:20px;
     width: 100%;
-    //height: 100vh;
-    height: calc(100vh - 35px); // A la altura, le hemos restado la parte de la barra de navegación (menú) con una altura correspondiente a 35px
-    //transition: all .2 ease-in-out;  // Al realizar cambios en todas las propiedades, tarde 2 milésimas de segundos y la curva para verla es ease-in-out
+    height: 150px;
+    line-height: 1.5;
+    font-size:30px;
+    text-transform: uppercase;
 }
 
 .hero {
-    border: 50px solid yellow;
+    background-image: url(../images/cover.jpeg);
+    background-size: cover;
+    z-index: -1;
+    position:relative;
+    top:-42px;
 }
 
-.hero-title{
-    border: 50px solid yellow;
-}
-
-.hero-content {
-    background-image: url("../images/cover.jpeg");
+.hero_box {
+    position:relative;
     display: flex;
-    justify-content: center;
-    height: 65vh;
+    justify-content:flex-start;
+    align-items: flex-start;
+    z-index: -1;
+    height: 70vh;
     width: 100%;
     border: 3px solid yellow;
+    
 }
+
+.hero_text {
+    display: flex;
+    flex-direction: column;
+    justify-content:end;
+    align-items: flex-end;
+    padding:20px;
+    width: 100%;
+}
+
 
 

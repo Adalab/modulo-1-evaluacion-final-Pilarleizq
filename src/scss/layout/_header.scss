@@ -1,13 +1,26 @@
 .header {
   background-color: #f26002;
-  display: flex;
-  position: fixed;
   justify-content: center;
   align-items: center;
+
+  
+
+}
+
+.header_container {
+  background-color: #f26002;
+  position: fixed;
   width: 38px;
   height: 35px;
-  border: 2px solid green;
 
+}
+
+.menu-logo {
+  position: sticky;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+ 
 }
 
 
