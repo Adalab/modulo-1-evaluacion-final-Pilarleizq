@@ -4,6 +4,7 @@
     flex-direction: column;
     border: 2px solid palevioletred;
     height: 100%;
+    width: 100%;
     margin-bottom: 0;
 
     &__text1 {
@@ -89,6 +90,19 @@
 
     &__exclusive {
       padding:20px;
+    }
+
+    &__button2 {
+      background-color: #f26002;
+      font-size: 20px;
+      color: white;
+      text-decoration: none;
+      padding: 10px;
+      border-radius: 22.5px;
+      display: flex;
+      justify-content: center; 
+      width: 50%;
+      margin-left: 20%;
     }
 
 
