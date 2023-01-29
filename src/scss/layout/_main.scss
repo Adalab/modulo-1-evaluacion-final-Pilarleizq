@@ -2,13 +2,11 @@
   .main {
     display:flex;
     flex-direction: column;
-    border: 2px solid palevioletred;
     height: 100%;
     width: 100%;
     margin-bottom: 0;
 
     &__text1 {
-      border: 2px solid blue;
       padding: 10px;
       padding-bottom: 50px;
       padding-top: 30px;
@@ -22,6 +20,8 @@
 
     &__conect {
       padding-left: 8px;
+      font-size:x-large;
+      font-weight: bold;
     }
 
     &__button {
@@ -44,12 +44,6 @@
       padding-left: 11px;
     }
 
-    &__text2 {
-
-
-    }
-
-
 
   // .button-main2 {
   //   background-color: #f26002;
@@ -67,19 +61,27 @@
 
     &__text2 {
       padding: 30px;
-      border: 3px solid red;
       background-color: #f2f2f2;
+      height: 440px;
+      align-items: center;
     }
 
     &__newyear {
       padding: 10px;
       padding-bottom:20px;
       text-align: center;
+      font-size:20px;
+      font-weight: bold;
     }
 
     &__grid {
       text-align: center;
       
+    }
+
+    .negrita {
+      font-size:18px;
+      font-weight: bold;
     }
 
     &__train {
@@ -92,6 +94,7 @@
 
     &__exclusive {
       padding:20px;
+      padding-bottom: 20px;
     }
 
     &__button2 {
@@ -101,12 +104,53 @@
       text-decoration: none;
       padding: 10px;
       margin-top: 20px;
+      margin-bottom: 20px;
       border-radius: 22.5px;
       display: flex;
       justify-content: center; 
       width: 60%;
       margin-left: 20%;
     }
+
+
+  }
+
+  .main__arrow {
+    background-color: #f2f2f2;
+    
+   
+  }
+
+  .button_arrow {
+    border: 2px solid green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 36px;
+    height: 38px;
+    flex-grow: 0;
+    border-radius: 50%;
+    color:#f26002;
+    margin: auto;
+    background-color: #ffffff;
+  }
+
+  
+  @media all and (min-width:768px) {
+
+    .main__grid {
+      display:grid;
+      grid-template-columns:1fr 1fr 1fr;
+      column-gap: 20px;
+      padding: 0 29px 0 47px;
+    }
+
+    .main__button2 {
+      margin: 40px;
+      width: 50%;
+      margin-left: 25%;
+    }
+
 
 
   }

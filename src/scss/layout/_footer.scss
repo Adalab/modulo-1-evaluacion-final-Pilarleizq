@@ -1,8 +1,7 @@
 .footer {
   display: flex;
   flex-direction: column;
-  margin-left: -32px;
-  margin-bottom:-80px;
+  
   width: auto;
   height: 60vh;
   justify-content:space-evenly;
@@ -13,7 +12,8 @@
   list-style: none;
   background-color: #4a4a4a;
   padding: 65px 0 36px;
-  // padding-top: 30px;
+  padding-top: -30px;
+
   // padding-bottom: 10px;
 }
 
@@ -24,11 +24,13 @@
  justify-content: space-between;
  flex-direction: column;
  margin: -40px;
+ padding-top:20px;
 }
 
 .rrss-list {
 line-height: 1.8;
-padding-top: 30px;
+padding-top: 70px;
+padding-bottom: 50px;
 display: flex;
 justify-items: center;
 justify-content: space-between;
@@ -41,4 +43,25 @@ flex-direction: column;
 
 .heart {
   color: #f26002;
+}
+
+@media all and (min-width:768px) {
+
+.footer {
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  text-align: justify;
+  padding: 56px 135px 42px 178px;
+}
+
+.rrss-list {
+  text-align: start;
+  position: top;
+}
+
+.footer_copy {
+  order: -1;
+}
+
 }
