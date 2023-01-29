@@ -1,7 +1,6 @@
 .footer {
   display: flex;
   flex-direction: column;
-  position: relative;
   margin-left: -32px;
   margin-bottom:-80px;
   width: auto;
@@ -9,15 +8,17 @@
   justify-content:space-evenly;
   text-justify: distribute-all-lines;
   align-items:center;
+  text-align: center;
   color: white;
   list-style: none;
   background-color: #4a4a4a;
-  padding-top: 30px;
-  padding-bottom: 10px;
+  padding: 65px 0 36px;
+  // padding-top: 30px;
+  // padding-bottom: 10px;
 }
 
 .items-list {
- line-height: 1.5;
+ line-height: 1.8;
  display: flex;
  justify-items: center;
  justify-content: space-between;
@@ -26,11 +27,16 @@
 }
 
 .rrss-list {
-line-height: 1.5;
+line-height: 1.8;
+padding-top: 30px;
 display: flex;
 justify-items: center;
 justify-content: space-between;
 flex-direction: column;
+}
+
+.weloverun {
+  padding-bottom: 10px;
 }
 
 .heart {
