@@ -3,51 +3,93 @@
     display:flex;
     flex-direction: column;
     border: 2px solid palevioletred;
-    margin-top: 100px;
     height: 100%;
     margin-bottom: 0;
-  }
 
-  .feelings {
-    font-size: 15px; 
-  }
+    &__text1 {
+      border: 2px solid blue;
+      padding: 10px;
+      padding-bottom: 50px;
+      padding-top: 30px;
+    }
 
-  .button-main {
-    
-    border: 2px solid #f26002;
-    color:#f26002;
-    padding: 10px;
-    margin:20px;
-    border-radius: 22.5px;
-    text-decoration: none;
-  }
+    &__feelings {
+      font-size: 15px; 
+      padding:10px;
+      color:#f26002;
+    }
 
-  .p-main {
-    padding: 25px;
-  }
+    &__conect {
+      padding-left: 8px;
+    }
 
-  .grid {
-    
-  }
+    &__button {
+      border: 2px solid #f26002;
+      color:#f26002;
+      padding: 10px;
+      padding-left: 30px;
+      padding-right: 30px;
+      margin:20px;
+      width: 500px;
+      border-radius: 22.5px;
+      text-decoration: none;
+    }
 
-  .p-exclusividad {
-    padding-bottom: 25px;
-  }
+    &__p  {
+      padding: 20px;
+      line-height: 1.7;
+      font-family: 'Roboto', sans-serif;
+      font-size: 18px;
+      padding-left: 11px;
+    }
 
-  .button-main2 {
-    background-color: #f26002;
-    border: 2px solid #f26002;
-    color: white;
-    text-decoration: none;
-    padding: 10px;
-    margin:20px;
-    border-radius: 22.5px;
-  }
-
-
+    &__text2 {
 
 
+    }
 
-  .text-2-main {
-    padding-top: 40px;
+
+
+  // .button-main2 {
+  //   background-color: #f26002;
+  //   border: 2px solid #f26002;
+  //   color: white;
+  //   text-decoration: none;
+  //   padding: 10px;
+  //   margin:20px;
+  //   border-radius: 22.5px;
+  // }
+
+  // .text-2-main {
+  //   padding-top: 40px;
+  // }
+
+    &__text2 {
+      padding: 30px;
+      border: 3px solid red;
+    }
+
+    &__newyear {
+      padding: 20px;
+      text-align: center;
+    }
+
+    &__grid {
+      text-align: center;
+      
+    }
+
+    &__train {
+      padding: 20px;
+    }
+
+    &__nivel {
+      padding: 20px;
+    }
+
+    &__exclusive {
+      padding:20px;
+    }
+
+
   }

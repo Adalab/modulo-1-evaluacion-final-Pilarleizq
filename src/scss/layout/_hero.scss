@@ -6,27 +6,31 @@
     background-image: url(../images/cover.jpeg);
     display: flex;
     flex-direction: column;
-    background-size:cover;
+    background-size: 200%;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: right 50% bottom 50%;
+    background-size: cover;
     justify-content: center;
     align-items: center;
     position: relative;
     width: 100%;
     z-index: -1;
-    top:-42px;
+   
 
     &__title{
-        border: 5px solid rgb(29, 110, 124);
+        
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
         color: white;
-        margin: 280px 0 34px 150px;
-        text-shadow: 0 2px 3px var(--black-20);
-        padding:20px;
-        width: 100%;
-        height: 150px;
-        line-height: 1.5;
-        font-size:30px;
+        margin: 290px 0px 34px 0px;
+        width: 90vw;
+        line-height: 2;
+        font-size:35px;
+        letter-spacing: 1px;
         text-transform: uppercase;
+        font-family: 'Roboto Slab', serif;
     }
 
     &__box {
@@ -38,7 +42,7 @@
         // z-index: -1;
         margin: 0;
         padding: 0;
-        height: 90vh;
+        height: 70vh;
         width: 100%;
         border: 3px solid yellow;
         
@@ -47,10 +51,11 @@
     &__text {
         display: flex;
         flex-direction: column;
-        justify-content:end;
-        align-items: flex-end;
-        padding:20px;
+        justify-content:center;
+        align-items: center;
+        color:white;
         width: 100%;
+        padding: 0;
     }
 
     &__button {
@@ -58,7 +63,6 @@
         flex-grow: 0;
         justify-content: center;
         align-items:center;
-        border: 3px solid black;
         width: 38px;
         height: 36px;
         color: #f26002;
