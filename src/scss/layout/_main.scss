@@ -149,23 +149,48 @@
   
   @media all and (min-width:768px) {
 
+    .main__conect {
+      font-size: 30px;
+    }
+
     .main__text2 {
       width: auto;
       height: 410px;
       flex-grow: 0;
-      margin: auto;
       padding: auto;
+      padding-left: 50px;
+      margin-bottom: -60px;
+     
+    }
+
+    .main__newyear {
+      display: flex;
+      justify-content: center;
+      padding-left: 20px;
+      align-items: center;
+      text-align: center;
+      zoom: 1.2;
+      margin: auto;
+      font-size: 20px;
+     
+      
     }
 
     .main__grid {
       display:grid;
       grid-template-columns:1fr 1fr 1fr;
       column-gap: 20px;
-      padding: 0 29px 0 47px;
+      padding: 0 4px 0 4px;
+      align-items:flex-start;
+      width: 750px;
+      font-size: 20px;
+      margin: 0 -20px 0 -20px;
+     
+      
     }
 
     .main__button2 {
-      margin: 50px;
+     
       width: 25%;
       margin-left: 36%;
     }

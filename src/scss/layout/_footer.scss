@@ -63,11 +63,12 @@ flex-direction: column;
 .rrss-list {
   text-align: start;
   margin-bottom:30px;
-  
+  padding-top: 4px;
 }
 
-.footer_copy {
+.footer__copy {
   order: -1;
+  padding-top: 4px;
 }
 
 }
