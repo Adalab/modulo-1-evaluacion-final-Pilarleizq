@@ -1,9 +1,8 @@
 .footer {
   display: flex;
   flex-direction: column;
-  padding: 60px;
+  padding: 40px;
   width: auto;
-  height: 55vh;
   justify-content:flex-start;
   align-items:center;
   text-align: center;
@@ -37,8 +36,9 @@ flex-direction: column;
   color:white;
 }
 
-.footer_copy {
+.footer__copy {
   padding-top: 50px;
+
 }
 
 .weloverun {
