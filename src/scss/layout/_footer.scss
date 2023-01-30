@@ -1,7 +1,6 @@
 .footer {
   display: flex;
   flex-direction: column;
-  
   width: auto;
   height: 60vh;
   justify-content:space-evenly;
@@ -13,8 +12,6 @@
   background-color: #4a4a4a;
   padding: 65px 0 36px;
   padding-top: -30px;
-
-  // padding-bottom: 10px;
 }
 
 .items-list {
@@ -39,6 +36,7 @@ flex-direction: column;
 
 .weloverun {
   padding-bottom: 10px;
+  margin-top: 20px;
 }
 
 .heart {
@@ -57,7 +55,8 @@ flex-direction: column;
 
 .rrss-list {
   text-align: start;
-  position: top;
+  margin-bottom:30px;
+  
 }
 
 .footer_copy {

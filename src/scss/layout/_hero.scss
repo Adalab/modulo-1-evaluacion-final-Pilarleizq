@@ -85,5 +85,19 @@
 
 @media all and (min-width:768px) {
 
+.hero {
+    background-position: 20%;
+}
+
+.hero__title {
+    align-items: center;
+    justify-content: center;
+    line-height: 100px;
+    font-size: 75px;
+}
     
+.hero__text {
+    font-size: 24px;
+}
+
 }
