@@ -22,6 +22,7 @@
       padding-left: 8px;
       font-size:x-large;
       font-weight: bold;
+      font-family: 'Roboto', sans-serif;
     }
 
     &__button {
@@ -55,11 +56,12 @@
     &__newyear {
       padding: 10px;
       padding-bottom:20px;
-      width: 60%;
-      margin-left:70px;
+      width: 70%;
+      margin-left:60px;
       text-align: center;
       font-size:20px;
       font-weight: bold;
+      font-family: 'Roboto', sans-serif;;
     }
 
     &__grid {
@@ -72,6 +74,7 @@
     .negrita {
       font-size:18px;
       font-weight: bold;
+      font-family: 'Roboto', sans-serif;;
     }
 
     &__train {
@@ -106,12 +109,12 @@
   .main__arrow {
     background-color: #f2f2f2;
     position:relative;
-    border: 3px solid teal;
     height: 50px;
   }
 
   .button_arrow {
-    border: 2px solid green;
+    position: relative;
+    transform: translateY(70%);
     z-index: 1;
     display: flex;
     justify-content: center;
@@ -123,6 +126,7 @@
     color:#f26002;
     margin: auto;
     background-color: #ffffff;
+    
   }
 
   
@@ -167,10 +171,16 @@
      
       width: 25%;
       margin-left: 36%;
+      transform: translateY(40%);
     }
 
     .negrita {
       line-height: 2.5;
+    }
+
+    .button_arrow {
+      position: relative;
+      transform: translateY(100%);
     }
 
   }
@@ -210,14 +220,9 @@
       width: 400px;
     }
 
-    .negrita {
-      
+    .button_arrow {
+      position: relative;
+      transform: translateY(105%);
     }
-
-
-    
-
-
-
 
   }
