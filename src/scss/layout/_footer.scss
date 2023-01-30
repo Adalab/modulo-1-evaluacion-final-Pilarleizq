@@ -1,42 +1,49 @@
 .footer {
   display: flex;
   flex-direction: column;
+  padding: 60px;
   width: auto;
-  height: 60vh;
-  justify-content:space-evenly;
-  text-justify: distribute-all-lines;
+  height: 55vh;
+  justify-content:flex-start;
   align-items:center;
   text-align: center;
   color: white;
   list-style: none;
   background-color: #4a4a4a;
-  padding: 65px 0 36px;
-  padding-top: -30px;
+ 
+  
 }
 
 .items-list {
  line-height: 1.8;
  display: flex;
  justify-items: center;
- justify-content: space-between;
  flex-direction: column;
- margin: -40px;
- padding-top:20px;
+ margin: 0;
+
 }
 
 .rrss-list {
 line-height: 1.8;
-padding-top: 70px;
-padding-bottom: 50px;
+padding-top: 50px;
+padding-bottom: 5px;
 display: flex;
 justify-items: center;
-justify-content: space-between;
 flex-direction: column;
+}
+
+.rrss {
+  text-decoration: none;
+  color:white;
+}
+
+.footer_copy {
+  padding-top: 50px;
 }
 
 .weloverun {
   padding-bottom: 10px;
-  margin-top: 20px;
+  margin-top: 10px;
 }
 
 .heart {
@@ -64,3 +71,5 @@ flex-direction: column;
 }
 
 }
+
+

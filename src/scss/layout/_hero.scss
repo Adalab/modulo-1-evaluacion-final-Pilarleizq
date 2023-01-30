@@ -14,7 +14,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     z-index: -1;
-    background-position: 45%;
+    background-position: 40%;
 
 .hero__box {
 
@@ -27,8 +27,6 @@
         height: 100vh;
         margin: 0;
         padding: 0;
-        
-        
         }
 
 .hero__title {
@@ -38,15 +36,17 @@
         text-align: center;
         align-items: center;
         color: white;
-        margin-top: 110%;
-        width: 80%;
+        margin-top: 550px;
+        width: 100%;
         line-height: 1.6;
-        font-size:30px;
+        font-size:40px;
         transform: rotate(-0.23deg);
-        text-shadow: 0 2px 3px rgba(0,0,0,0.2);
+        text-shadow: 0 2px 3px rgba(0,0,0,0.4);
         text-transform: uppercase;
         font-family: 'Roboto Slab', serif;
-        padding-top:-50px;
+        
+     
+    
     }
 
 
@@ -55,9 +55,10 @@
         flex-direction: column;
         align-content: center;
         color:white;
-        font-size: 30px;
         font-size:20px;
-        padding-bottom: 20px;
+        width: 80%;
+        margin-bottom: 20px;
+        margin-top: 30px;
        
     }
 
