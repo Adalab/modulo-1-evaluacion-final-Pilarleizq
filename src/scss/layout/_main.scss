@@ -45,21 +45,6 @@
       padding-bottom:40px;
     }
 
-
-  // .button-main2 {
-  //   background-color: #f26002;
-  //   border: 2px solid #f26002;
-  //   color: white;
-  //   text-decoration: none;
-  //   padding: 10px;
-  //   margin:20px;
-  //   border-radius: 22.5px;
-  // }
-
-  // .text-2-main {
-  //   padding-top: 40px;
-  // }
-
     &__text2 {
       padding: 30px;
       background-color: #f2f2f2;
@@ -82,7 +67,6 @@
       width: 60%;
       margin-left:70px;
       line-height: 1.2;
-      
     }
 
     .negrita {
@@ -117,8 +101,6 @@
       width: 50%;
       margin-left: 25%;
     }
-
-
   }
 
   .main__arrow {
@@ -126,8 +108,6 @@
     position:relative;
     border: 3px solid teal;
     height: 50px;
-    
-   
   }
 
   .button_arrow {
@@ -143,7 +123,6 @@
     color:#f26002;
     margin: auto;
     background-color: #ffffff;
-    
   }
 
   
@@ -160,7 +139,6 @@
       padding: auto;
       padding-left: 50px;
       margin-bottom: -60px;
-     
     }
 
     .main__newyear {
@@ -172,8 +150,6 @@
       zoom: 1.2;
       margin: auto;
       font-size: 20px;
-     
-      
     }
 
     .main__grid {
@@ -183,10 +159,8 @@
       padding: 0 4px 0 4px;
       align-items:flex-start;
       width: 750px;
-      font-size: 20px;
+      // font-size: 20px;
       margin: 0 -20px 0 -20px;
-     
-      
     }
 
     .main__button2 {
@@ -198,6 +172,51 @@
     .negrita {
       line-height: 2.5;
     }
+
+  }
+
+  @media all and (min-width: 1024px) {
+
+    .main__text1 {
+      padding-left: 200px;
+      padding-right: 200px;
+    }
+
+    .main__text2 {
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding-bottom: -80px;
+    }
+
+    .main__grid {
+      margin: 0 200px 0 200px;
+      display: grid;
+      justify-content: space-evenly;
+      line-height: 40px;
+    }
+
+    .main__train {
+      width: 400px;
+    }
+
+    .main__nivel {
+      width: 400px;
+      padding-left: 50px;
+      padding-right: 50px;
+    }
+
+    .main__exclusive {
+      width: 400px;
+    }
+
+    .negrita {
+      
+    }
+
+
+    
+
 
 
 
